@@ -1,0 +1,56 @@
+|RegisterN_Demo
+SW[0] => registern:ff_d.wrEn
+SW[1] => registern:ff_d.d[0]
+SW[2] => registern:ff_d.d[1]
+SW[3] => registern:ff_d.d[2]
+SW[4] => registern:ff_d.d[3]
+SW[5] => registern:ff_d.d[4]
+SW[6] => registern:ff_d.d[5]
+SW[7] => registern:ff_d.d[6]
+SW[8] => registern:ff_d.d[7]
+KEY[0] => registern:ff_d.clk
+LEDR[0] << registern:ff_d.q[0]
+LEDR[1] << registern:ff_d.q[1]
+LEDR[2] << registern:ff_d.q[2]
+LEDR[3] << registern:ff_d.q[3]
+LEDR[4] << registern:ff_d.q[4]
+LEDR[5] << registern:ff_d.q[5]
+LEDR[6] << registern:ff_d.q[6]
+LEDR[7] << registern:ff_d.q[7]
+
+
+|RegisterN_Demo|RegisterN:ff_d
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+wrEn => q[0]~reg0.ENA
+wrEn => q[7]~reg0.ENA
+wrEn => q[6]~reg0.ENA
+wrEn => q[5]~reg0.ENA
+wrEn => q[4]~reg0.ENA
+wrEn => q[3]~reg0.ENA
+wrEn => q[2]~reg0.ENA
+wrEn => q[1]~reg0.ENA
+
+

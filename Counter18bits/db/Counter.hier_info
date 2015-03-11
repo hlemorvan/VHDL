@@ -1,0 +1,61 @@
+|CounterDown4_Demo
+KEY[0] => counterdown4:ff_d.clk
+LEDR[0] << counterdown4:ff_d.count[0]
+LEDR[1] << counterdown4:ff_d.count[1]
+LEDR[2] << counterdown4:ff_d.count[2]
+LEDR[3] << counterdown4:ff_d.count[3]
+LEDR[4] << counterdown4:ff_d.count[4]
+LEDR[5] << counterdown4:ff_d.count[5]
+LEDR[6] << counterdown4:ff_d.count[6]
+LEDR[7] << counterdown4:ff_d.count[7]
+LEDR[8] << counterdown4:ff_d.count[8]
+LEDR[9] << counterdown4:ff_d.count[9]
+LEDR[10] << counterdown4:ff_d.count[10]
+LEDR[11] << counterdown4:ff_d.count[11]
+LEDR[12] << counterdown4:ff_d.count[12]
+LEDR[13] << counterdown4:ff_d.count[13]
+LEDR[14] << counterdown4:ff_d.count[14]
+LEDR[15] << counterdown4:ff_d.count[15]
+LEDR[16] << counterdown4:ff_d.count[16]
+LEDR[17] << counterdown4:ff_d.count[17]
+
+
+|CounterDown4_Demo|CounterDown4:ff_d
+clk => s_count[0].CLK
+clk => s_count[1].CLK
+clk => s_count[2].CLK
+clk => s_count[3].CLK
+clk => s_count[4].CLK
+clk => s_count[5].CLK
+clk => s_count[6].CLK
+clk => s_count[7].CLK
+clk => s_count[8].CLK
+clk => s_count[9].CLK
+clk => s_count[10].CLK
+clk => s_count[11].CLK
+clk => s_count[12].CLK
+clk => s_count[13].CLK
+clk => s_count[14].CLK
+clk => s_count[15].CLK
+clk => s_count[16].CLK
+clk => s_count[17].CLK
+count[0] <= s_count[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= s_count[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= s_count[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= s_count[3].DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= s_count[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= s_count[5].DB_MAX_OUTPUT_PORT_TYPE
+count[6] <= s_count[6].DB_MAX_OUTPUT_PORT_TYPE
+count[7] <= s_count[7].DB_MAX_OUTPUT_PORT_TYPE
+count[8] <= s_count[8].DB_MAX_OUTPUT_PORT_TYPE
+count[9] <= s_count[9].DB_MAX_OUTPUT_PORT_TYPE
+count[10] <= s_count[10].DB_MAX_OUTPUT_PORT_TYPE
+count[11] <= s_count[11].DB_MAX_OUTPUT_PORT_TYPE
+count[12] <= s_count[12].DB_MAX_OUTPUT_PORT_TYPE
+count[13] <= s_count[13].DB_MAX_OUTPUT_PORT_TYPE
+count[14] <= s_count[14].DB_MAX_OUTPUT_PORT_TYPE
+count[15] <= s_count[15].DB_MAX_OUTPUT_PORT_TYPE
+count[16] <= s_count[16].DB_MAX_OUTPUT_PORT_TYPE
+count[17] <= s_count[17].DB_MAX_OUTPUT_PORT_TYPE
+
+

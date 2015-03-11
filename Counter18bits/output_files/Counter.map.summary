@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Mar 11 12:36:40 2015
+Quartus II 32-bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : Counter
+Top-level Entity Name : CounterDown4_Demo
+Family : Cyclone IV E
+Total logic elements : 18
+    Total combinational functions : 18
+    Dedicated logic registers : 18
+Total registers : 18
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
